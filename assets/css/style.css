@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ 
+}
+
+body {
+    background-color: #d9dcd6;
+background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header {
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(13, 0, 128);
+    color: #ffffff;
+}
+
+.header h1 {
+    display: block;
+    font-size: 60px;
+    text-align: center;
+}
+
+.header nav {
+   
+    display: block;
+    text-align: center;
+    margin-top: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'calibri,' 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+   
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: underline;
+    font-style: italic;
+  
+}
+li {
+    display: inline;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 20px;
+  
+}
+
+.content {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.float-left {
+    float: left;
+   margin-right: 20px;
+   
+}
+
+
+    .nav-items {
+    margin-bottom: 30px;
+    margin-top: 75px;
+    padding: 100px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(13, 0, 128);
+    color: #ffffff;
+  
+
+}
+   .nav-items img {
+    max-height: 250px;
+}
+
+    .nav-items h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}  
+ 
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
