@@ -4,12 +4,17 @@
     margin: 0;
  }
 body {
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: cadetblue;
 }
 
 .header {
-    padding: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     background-color:rgb(13, 0, 128);
     color: #ffffff;
 }
@@ -20,7 +25,7 @@ body {
     text-align: center;
 }
 
-.header nav {
+nav {
    
     display: block;
     text-align: center;
@@ -29,16 +34,7 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;  
-}
 
-.header nav ul li {
-    display: inline-block;
-    margin-left: 30px;
-    text-decoration: underline;
-    font-style: italic;
-}
 .hero-banner {
 background-color: blue;
 background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
@@ -74,18 +70,17 @@ h2 {
 }
 
 .work {
-    border: 3px solid black;
+    border: 5px solid black;
     background-color: blue;
     color: white;
-    min-height: 125px;
+    min-height: 150px;
     display: flex;
+    align-items: flex-end;
 }
 
-.book-items h2 {
-    margin-bottom: 20px;
-    font-size: 32px;
-    text-align: center;
- 
+.work:first-child {
+min-height: 350px;
+flex-basis: 100%;
 }
     
 .float-left {
@@ -94,24 +89,19 @@ h2 {
      
 }
 
-.nav-items {
-    margin-bottom: 30px;
-    margin-top: 75px;
-    padding: 25px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(13, 0, 128);
-    color: #ffffff;
-}
 
-.book-items {
-    margin-bottom: 30px;
-    margin-top: 75px;
-    padding: 25px;
-    height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+.work-items {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin:20px;
+    padding: 5px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(13, 0, 128);
-    color: #ffffff;
+    color: #ffffff; */
 }
  .contact-items {
         display:block;
@@ -131,16 +121,10 @@ h2 {
 
 }
 .list-adjust {
-    display: inline-block;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.list-adjust ul {
-    text-align: center;
-}
-
-.list-adjust ul li {
-    display: inline-block;
    
 }
 .contact-adjust ul li {
