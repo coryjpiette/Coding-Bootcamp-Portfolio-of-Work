@@ -4,9 +4,7 @@
     margin: 0;
  }
 body {
-background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+
 }
 
 .header {
@@ -41,7 +39,17 @@ background-size: cover;
     text-decoration: underline;
     font-style: italic;
 }
-
+.hero-banner {
+background-color: blue;
+background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 25vh;
+display:flex;
+justify-content: flex-end;
+align-items: flex-end;
+text-align: right;
+}
 a {
     color: white;
     font-size: 24px;
@@ -61,8 +69,16 @@ p {
     margin-right: 100px;
 }
 h2 {
-    margin-bottom: 20px;
-    font-size: 32px; 
+    margin:0px;
+    color: white;
+}
+
+.work {
+    border: 3px solid black;
+    background-color: blue;
+    color: white;
+    min-height: 125px;
+    display: flex;
 }
 
 .book-items h2 {
