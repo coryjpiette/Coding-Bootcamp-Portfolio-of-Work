@@ -1,11 +1,13 @@
 * {
- box-sizing: content-box;
-    padding: 0;
-    margin: 0;
+ box-sizing: border-box;
+   
  }
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 background-color: cadetblue;
+margin:0px;
+padding:0px;
+line-height: 1.5;
 }
 
 .header {
@@ -20,21 +22,25 @@ background-color: cadetblue;
 }
 
 .header h1 {
-    display: block;
-    font-size: 60px;
-    text-align: center;
+  margin:0px;
+font-size: 2em;
+line-height: 1;
 }
 
-nav {
-   
-    display: block;
-    text-align: center;
-    margin-top: 20PX;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'calibri,' 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+nav{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+nav a {
+color: white;
+font-size: 1.2rem;
+margin-right: 15px;
 }
 
-
+nav a:hover {
+    color: rgba(245, 255, 255, 0.5);
+}
 .hero-banner {
 background-color: blue;
 background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
@@ -46,12 +52,13 @@ justify-content: flex-end;
 align-items: flex-end;
 text-align: right;
 }
-a {
-    color: white;
-    font-size: 24px;
-}
-a:hover {
-color: rgba(245, 255, 255, 0.5);
+
+.hero-banner h2 {
+margin:0px;
+padding:15px;
+font-size: 2rem;
+line-height: 1;
+display: inline;
 }
 
 p {
@@ -74,6 +81,7 @@ h2 {
     background-color: blue;
     color: white;
     min-height: 150px;
+    max-height: 150px;
     display: flex;
     align-items: flex-end;
 }
@@ -116,10 +124,8 @@ flex-basis: 100%;
        margin-right: 200px;
  }
      
-.box-adjust {
-    display: block;
 
-}
+
 .list-adjust {
     display: flex;
     flex-wrap: wrap;
