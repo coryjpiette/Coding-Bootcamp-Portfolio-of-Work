@@ -10,6 +10,13 @@ padding:0px;
 line-height: 1.5;
 }
 
+h1,h3,h2 {
+margin:0px;
+color: white;
+
+}
+    
+
 .header {
     padding: 20px;
     display: flex;
@@ -27,7 +34,7 @@ font-size: 2em;
 line-height: 1;
 }
 
-nav{
+nav {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -40,6 +47,11 @@ margin-right: 15px;
 
 nav a:hover {
     color: rgba(245, 255, 255, 0.5);
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
 .hero-banner {
 background-color: blue;
@@ -66,15 +78,12 @@ p {
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
+   margin-left:auto;
+   margin-right:auto;
+   max-width: 88%;
 }
-h2 {
-    margin:0px;
-    color: white;
-}
+
+
 
 .work {
     border: 5px solid black;
@@ -84,6 +93,7 @@ h2 {
     max-height: 150px;
     display: flex;
     align-items: flex-end;
+    flex-basis:calc(50% - 1em);
 }
 
 .work:first-child {
@@ -98,12 +108,11 @@ flex-basis: 100%;
 }
 
 
-
-
 .work-items {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: stretch;
     justify-content: space-between;
    margin:20px;
     padding: 5px;
@@ -132,7 +141,7 @@ flex-basis: 100%;
     justify-content: center;
 }
    
-}
+
 .contact-adjust ul li {
     text-align: left;
     margin-top: 10px;
@@ -140,34 +149,8 @@ flex-basis: 100%;
     font-size: 15pt;
 }
  
-
-.nav-items img {
+.aboutme-items img {
    max-height: 250px;
-}
-
-
-.mybook img {
-    max-height:175px;
-    padding: 25px;
-    background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
-.mybook:hover img {
-    transform: scale(1.25)
-}
-.authorbook img {
- height: 175px;
-    padding: 25px;
-    margin-top: 20px;
-    margin-left: 90px;
-    background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.authorbook:hover img {
-    transform: scale(1.25)
 }
 
 .contact-items img {
