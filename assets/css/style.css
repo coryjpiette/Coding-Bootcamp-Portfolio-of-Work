@@ -87,7 +87,7 @@
        flex-wrap: wrap;
        align-items:stretch;
        justify-content: space-between;
-      margin:20px;
+      margin:32px;
        padding: 5px;
    }
    
@@ -97,8 +97,14 @@
        color: white;
        display: flex;
        align-items: flex-end;
-       flex-basis:calc(75% - 1em);
+       flex-basis:calc(85% - 1em);
    }
+    .column-right {
+    flex: 0 0 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
    .work-items {
        display:flex;
        flex-direction: row;
@@ -139,7 +145,6 @@
      
    }
    
-   
    .surf-report {
        background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Large_breaking_wave.jpg")
    }
@@ -167,7 +172,8 @@
        display: flex;
        align-items: flex-end;
      
-       flex-basis:calc(75% - 1em);
+     
+       flex-basis:calc(85% - 1em);
    }
        .contact-items {
            display:flex;
@@ -175,6 +181,7 @@
            flex-wrap: wrap;
            align-items: stretch;
            justify-content: space-between;
+           margin: 35px;
        }
    
    
