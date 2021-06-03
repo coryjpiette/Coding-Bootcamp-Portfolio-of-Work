@@ -157,15 +157,6 @@ p {
 }
 
 
-.contact-items {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .contact {
     border: 5px solid black;
     background-color: rgba(0, 0, 255, 0.301);
@@ -175,33 +166,47 @@ p {
   
     flex-basis:calc(75% - 1em);
 }
+    .contact-items {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+       margin:20px;
+        padding: 5px;
+    }
 
-.contact-info a{
-    font-size:16pt
+
+.contact-info {
+font-size:16pt;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
+
 
 .list-adjust {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+   text-align: justify;
 }
    
 .aboutme-items img {
-   max-height: 250px;
-  ;
+    vertical-align: top;
+  max-height: 250px;
+
 }
 
 .contact-items img {
-    max-height: 225px;
+    max-height: 200px;
+}
+
+.float-left {
+    vertical-align: top;
+    margin: 10px
 }
 
 
-.contact-info {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;      
-}
- 
 .footer {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
