@@ -1,3 +1,4 @@
+
 # Coding-Bootcamp-Portfolio-of-Work
 Homework #2 - Portfolio of Work
 
@@ -11,3 +12,7 @@ In contact Me, I have included a link to my email address and a fake phone numbe
 
 
 Link to website: https://coryjpiette.github.io/Coding-Bootcamp-Portfolio-of-Work/
+
+Website screenshot:
+
+![website-screenshot](https://user-images.githubusercontent.com/60293516/120710867-ae14db00-c48c-11eb-82b9-ffacdd642019.jpg)
