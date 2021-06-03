@@ -85,7 +85,7 @@ p {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items:stretch;
     justify-content: space-between;
    margin:20px;
     padding: 5px;
@@ -220,6 +220,6 @@ flex-wrap: wrap;
     color:white
 }
 
-@media screen and (max-width: 992px) 
+
 
    
