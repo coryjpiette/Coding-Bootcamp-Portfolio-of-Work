@@ -77,6 +77,8 @@ display: inline;
 
 p {
     font-size: 20px;  
+    flex: 1 1 100%;
+  
 }
 
 .aboutme-items {
@@ -95,7 +97,6 @@ p {
     color: white;
     display: flex;
     align-items: flex-end;
-  
     flex-basis:calc(75% - 1em);
 }
 .work-items {
@@ -124,7 +125,7 @@ p {
     flex-basis: 100%;
     }
      
-}
+
 .work-items p {
     margin-left: 10px;
 }
@@ -168,19 +169,17 @@ p {
 }
     .contact-items {
         display:flex;
-        flex-direction: row;
+    
         flex-wrap: wrap;
         align-items: stretch;
         justify-content: space-between;
-       margin:20px;
-        padding: 5px;
     }
 
 
 .contact-info {
 font-size:16pt;
 display: flex;
-flex-direction: row;
+
 flex-wrap: wrap;
 }
 
@@ -192,19 +191,19 @@ flex-wrap: wrap;
 }
    
 .aboutme-items img {
-    vertical-align: top;
   max-height: 250px;
+  margin: 10px;
+  
 
 }
 
 .contact-items img {
     max-height: 200px;
+    flex: 1 0 10%;
 }
 
-.float-left {
-    vertical-align: top;
-    margin: 10px
-}
+
+
 
 
 .footer {
