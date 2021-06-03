@@ -8,6 +8,9 @@ background-color: cadetblue;
 margin:0px;
 padding:0px;
 line-height: 1.5;
+background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 h1,h3,h2 {
@@ -24,7 +27,7 @@ font-size: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color:rgb(13, 0, 128);
+    background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
     color: #ffffff;
 }
 
@@ -54,8 +57,7 @@ main {
     margin-bottom: 45px;
 }
 .hero-banner {
-background-color: blue;
-background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/98/83/tqzDo5.jpg");
+background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/best-background-designs-for-websites-8.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 min-height: 25vh;
@@ -74,14 +76,55 @@ display: inline;
 }
 
 p {
-    font-size: 24px;  
+    font-size: 20px;  
 }
 
 .aboutme-items {
-    border: 5pt solid black;
-    background-color:rgb(0, 183, 255) ;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+   margin:20px;
+    padding: 5px;
+}
+
+.aboutme {
+    border: 5px solid black;
+    background-color: rgba(0, 0, 255, 0.301);
+    color: white;
+    display: flex;
+    align-items: flex-end;
+  
+    flex-basis:calc(75% - 1em);
+}
+.work-items {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+   margin:20px;
+    padding: 5px;
+}
+
+    .work {
+        border: 5px solid black;
+        background-color: rgb(0, 183, 255);
+        color: white;
+        min-height: 300px;
+        max-height: 300px;
+        display: flex;
+        align-items: flex-end;
+        flex-basis:calc(50% - 1em);
     }
     
+    .work:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+    }
+     
+}
 .work-items p {
     margin-left: 10px;
 }
@@ -94,23 +137,6 @@ p {
 }
 
 
-
-.work {
-    border: 5px solid black;
-    background-color: rgb(0, 183, 255);
-    color: white;
-    min-height: 300px;
-    max-height: 300px;
-    display: flex;
-    align-items: flex-end;
-    flex-basis:calc(50% - 1em);
-}
-
-.work:first-child {
-min-height: 400px;
-flex-basis: 100%;
-}
- 
 .surf-report {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Large_breaking_wave.jpg")
 }
@@ -130,31 +156,29 @@ flex-basis: 100%;
     background-image: url("https://i.pinimg.com/236x/f6/93/f3/f693f3dff36006f9cbd8b9fb31544082--vector-character-marathon.jpg");
 }
 
-.float-left {
-    float: left;
-   margin-right: 20px;
-     
-}
 
-
-.work-items {
-    display:flex;
+.contact-items {
+    padding: 20px;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
     justify-content: space-between;
-   margin:20px;
-    padding: 5px;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(13, 0, 128);
-    color: #ffffff; */
+    flex-wrap: wrap;
+    align-items: center;
 }
- .contact-items {
-    border: 5pt solid black;
-    background-color:rgb(0, 183, 255) ;
- }
-     
 
+.contact {
+    border: 5px solid black;
+    background-color: rgba(0, 0, 255, 0.301);
+    color: white;
+    display: flex;
+    align-items: flex-end;
+  
+    flex-basis:calc(75% - 1em);
+}
+
+.contact-info a{
+    font-size:16pt
+}
 
 .list-adjust {
     display: flex;
@@ -162,29 +186,22 @@ flex-basis: 100%;
     justify-content: center;
 }
    
-
-.contact-adjust ul li {
-    text-align: left;
-    margin-top: 10px;
-    list-style-type: none;
-    font-size: 15pt;
-}
- 
 .aboutme-items img {
    max-height: 250px;
+  ;
 }
 
 .contact-items img {
     max-height: 225px;
 }
-.contact-items li a{
-    font-size:20px;
 
+
+.contact-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;      
 }
- .contacts-items ul li {
-     text-align: left;
- }
-
+ 
 .footer {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -192,7 +209,7 @@ flex-basis: 100%;
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 15px;
     color:white
 }
 .footer p {
