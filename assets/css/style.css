@@ -77,7 +77,7 @@
    
    p {
        font-size: 20px;  
-      
+       flex: 1 1 100%;
      
    }
    
@@ -87,7 +87,7 @@
        flex-wrap: wrap;
        align-items:stretch;
        justify-content: space-between;
-      margin:10px;
+      margin:20px;
        padding: 5px;
    }
    
@@ -97,22 +97,15 @@
        color: white;
        display: flex;
        align-items: flex-end;
-       flex-basis:calc(85% - 1em);
+       flex-basis:calc(75% - 1em);
    }
- 
-.column-right {
-    flex: 0 0 50%;
-flex-direction: column;
-flex-wrap: wrap;
-}
-
    .work-items {
        display:flex;
        flex-direction: row;
        flex-wrap: wrap;
        align-items: stretch;
        justify-content: space-between;
-      margin:10px;
+      margin:20px;
        padding: 5px;
    }
    
@@ -123,12 +116,13 @@ flex-wrap: wrap;
            min-height: 300px;
            max-height: 300px;
            display: flex;
+           align-items: flex-end;
            flex-direction: row;
            align-items: stretch;
            justify-content: space-between;
            flex-basis:calc(50% - 1em);
        }
-       
+
        .work:first-child {
        min-height: 400px;
        flex-basis: 100%;
@@ -145,6 +139,7 @@ flex-wrap: wrap;
       max-width: 88%;
      
    }
+   
    
    .surf-report {
        background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Large_breaking_wave.jpg")
@@ -173,8 +168,7 @@ flex-wrap: wrap;
        display: flex;
        align-items: flex-end;
      
-     
-       flex-basis:calc(85% - 1em);
+       flex-basis:calc(75% - 1em);
    }
        .contact-items {
            display:flex;
@@ -182,17 +176,15 @@ flex-wrap: wrap;
            flex-wrap: wrap;
            align-items: stretch;
            justify-content: space-between;
-           margin: 35px;
        }
    
    
    .contact-info {
    font-size:16pt;
-   flex: 0 0 50%;
-   flex-direction: column;
+   display: flex;
+   
    flex-wrap: wrap;
    }
-   
    
    
    .list-adjust {
@@ -210,7 +202,7 @@ flex-wrap: wrap;
    
    .contact-items img {
        max-height: 200px;
-   
+       flex: 1 0 10%;
    }
    
    
@@ -236,7 +228,7 @@ flex-wrap: wrap;
         flex: 0 0 100%;
     }
 }
-    
+
 @media screen and (max-width: 768px){
     .work {
         flex-basis: 100%;
@@ -245,7 +237,3 @@ flex-wrap: wrap;
         flex-basis: 100%;
     }
 }
-    
-    
-
-   
