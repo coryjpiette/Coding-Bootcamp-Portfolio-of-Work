@@ -77,7 +77,7 @@
    
    p {
        font-size: 20px;  
-       flex: 1 1 100%;
+      
      
    }
    
@@ -87,7 +87,7 @@
        flex-wrap: wrap;
        align-items:stretch;
        justify-content: space-between;
-      margin:32px;
+      margin:10px;
        padding: 5px;
    }
    
@@ -99,10 +99,11 @@
        align-items: flex-end;
        flex-basis:calc(85% - 1em);
    }
-    .column-right {
-    flex: 0 0 60%;
-    flex-direction: column;
-    flex-wrap: wrap;
+ 
+.column-right {
+    flex: 0 0 50%;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
    .work-items {
@@ -111,7 +112,7 @@
        flex-wrap: wrap;
        align-items: stretch;
        justify-content: space-between;
-      margin:20px;
+      margin:10px;
        padding: 5px;
    }
    
@@ -187,10 +188,11 @@
    
    .contact-info {
    font-size:16pt;
-   display: flex;
-   
+   flex: 0 0 50%;
+   flex-direction: column;
    flex-wrap: wrap;
    }
+   
    
    
    .list-adjust {
@@ -208,7 +210,7 @@
    
    .contact-items img {
        max-height: 200px;
-       flex: 1 0 10%;
+   
    }
    
    
