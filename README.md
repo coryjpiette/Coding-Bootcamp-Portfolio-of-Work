@@ -11,7 +11,7 @@ In Sample Work, I have included the required 5 sections.
 In contact Me, I have included a link to my email address and a fake phone number.
 
 
-Link to website: https://coryjpiette.github.io/Coding-Bootcamp-Portfolio-of-Work/
+Link to website: https://coryjpiette.github.io/Work-Portfolio/
 
 Website screenshot:
 
