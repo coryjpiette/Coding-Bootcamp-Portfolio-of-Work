@@ -14,4 +14,4 @@ Link to website: https://coryjpiette.github.io/Work-Portfolio/
 
 Website screenshot:
 
-![website-screenshot](https://user-images.githubusercontent.com/60293516/120710867-ae14db00-c48c-11eb-82b9-ffacdd642019.jpg)
+
