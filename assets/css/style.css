@@ -15,7 +15,7 @@
    
    h1,h3,h2 {
    margin-left: 10px;
-   color: white;
+   color:white;
    font-size: 30px;
    }
        
@@ -47,7 +47,10 @@
    font-size: 1.2rem;
    margin-right: 15px;
    }
-   
+   nav a:hover {
+color:gray;
+   }
+
     #resume, #contact, #LinkedIn {
     color: blue;
 }
@@ -55,12 +58,10 @@
 color:white;
 }
 
-#resume:hover, #contact:hover, #LinkedIn:hover, #FlixFinder:hover, #CodeQuiz:hover, #Weather:hover  {
+#resume:hover, #contact:hover, #LinkedIn:hover  {
     color: rgba(245, 255, 255, 0.5);
 }
-   a:hover {
-       color: rgba(245, 255, 255, 0.5);
-   }
+
 
 
    
@@ -112,7 +113,7 @@ color:white;
        color: white;
        display: flex;
        align-items: flex-end;
-       flex-basis:calc(75% - 1em);
+       flex-basis:calc(79% - 1em);
    }
    .work-items {
        display:flex;
@@ -156,22 +157,27 @@ color:white;
    }
    
    
-   .surf-report {
-       background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Large_breaking_wave.jpg")
+   .Project-1 {
+       background-image: url("https://cdn.wallpapersafari.com/51/11/pAFte5.jpg");
+       background-size: cover;
    }
-   .led-wall {
-       background-image: url("https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg?cs=srgb&dl=pexels-pixabay-268966.jpg&fm=jpg")
+   .Weather {
+    flex-basis: 50%;
+       background-image: url("https://wallpaperaccess.com/full/1540001.jpg")
    }
-   .calculator {
-       background-image: url("https://static.vecteezy.com/system/resources/previews/002/619/911/non_2x/calculator-finance-sign-in-blue-background-vector.jpg");
-   }
-   
+   .Quiz {
+ flex-basis: 50%;
+    background-image: url("https://t3.ftcdn.net/jpg/02/64/45/18/360_F_264451847_KS50XEvkFWRVzJwko9jpqmIhQXaaQXma.jpg");
+background-size: cover;   
+}
+  
    .pastel-puzzles {
-       background-image: url("https://www.rd.com/wp-content/uploads/2020/01/GettyImages-87487497-e1579034836695-scaled.jpg?fit=700,655");
-   
+    flex-basis: 50%;
+       background-image: url("https://www.rd.com/wp-content/uploads/2020/01/GettyImages-87487497-e1579034836695-scaled.jpg?fit=700,655"); 
    }
    
    .run-buddy {
+    flex-basis: 50%;
        background-image: url("https://i.pinimg.com/236x/f6/93/f3/f693f3dff36006f9cbd8b9fb31544082--vector-character-marathon.jpg");
    }
    
@@ -182,8 +188,9 @@ color:white;
        color: white;
        display: flex;
        align-items: flex-end;
+       margin-right: 22px;
      
-       flex-basis:calc(75% - 1em);
+       flex-basis:calc(77% - 1em);
    }
        .contact-items {
            display:flex;
@@ -223,7 +230,7 @@ color:white;
    
    
    
-   
+
    .footer {
        padding: 30px;
        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
