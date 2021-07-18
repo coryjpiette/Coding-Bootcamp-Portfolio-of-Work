@@ -51,8 +51,11 @@
     #resume, #contact, #LinkedIn {
     color: blue;
 }
+#FlixFinder, #CodeQuiz, #Weather {
+color:white;
+}
 
-#resume:hover, #contact:hover, #LinkedIn:hover {
+#resume:hover, #contact:hover, #LinkedIn:hover, #FlixFinder:hover, #CodeQuiz:hover, #Weather:hover  {
     color: rgba(245, 255, 255, 0.5);
 }
    a:hover {
@@ -160,7 +163,7 @@
        background-image: url("https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg?cs=srgb&dl=pexels-pixabay-268966.jpg&fm=jpg")
    }
    .calculator {
-       background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+       background-image: url("https://static.vecteezy.com/system/resources/previews/002/619/911/non_2x/calculator-finance-sign-in-blue-background-vector.jpg");
    }
    
    .pastel-puzzles {
