@@ -1,15 +1,14 @@
+Portfolio of Work
 
-# Coding-Bootcamp-Portfolio-of-Work
-Homework #2 - Portfolio of Work
+Please use the below-referenced link to view my portfolio of work.
 
-The website navigates successfully to the About Me, Work, and Contact Me seciotns.
+The website navigates successfully to the "About Me," "Work," and "Contact Me" sections.
 
-In About Me, I have included a headshot and bio.
+In About Me, I have included a headshod, short biography, and links to my resume and LinkedIn profile.
 
-In Sample Work, I have included the required 5 sections.
+In Sample Work, I have included five distinct sections that cover different programming languages and areas of focus.
 
-In contact Me, I have included a link to my email address and a fake phone number.
-
+In contact Me, I have included a link to my email address and (for now) a fake phone number.
 
 Link to website: https://coryjpiette.github.io/Work-Portfolio/
 
