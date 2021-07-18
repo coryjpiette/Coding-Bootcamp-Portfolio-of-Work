@@ -48,17 +48,18 @@
    margin-right: 15px;
    }
    
-    #resume {
-    color: gray;
+    #resume, #contact, #LinkedIn {
+    color: blue;
 }
 
+#resume:hover, #contact:hover, #LinkedIn:hover {
+    color: rgba(245, 255, 255, 0.5);
+}
    a:hover {
        color: rgba(245, 255, 255, 0.5);
    }
 
-   a .contact-info {
-       color:gray
-   }
+
    
    main {
        margin-top: 20px;
@@ -99,6 +100,9 @@
        padding: 5px;
    }
    
+   #headshot {
+       margin-bottom: 25px;
+   }
    .aboutme {
        border: 5px solid black;
        background-color: rgba(0, 0, 255, 0.301);
