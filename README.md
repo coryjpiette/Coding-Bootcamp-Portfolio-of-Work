@@ -1,6 +1,11 @@
-Portfolio of Work
+Cory's Portfolio of Work
 
-Please use the below-referenced link to view my portfolio of work.
+Description
+
+This portfolio contains sveral applications that incorporate a wide array of coding languages, ranging from HTML to SQL.
+Each application is fully operational, and you are welcome to search through projects, explore their features, and test their functionality.
+
+
 
 The website navigates successfully to the "About Me," "Work," and "Contact Me" sections.
 
@@ -10,7 +15,7 @@ In Sample Work, I have included five distinct sections that cover different prog
 
 In contact Me, I have included a link to my email address and (for now) a fake phone number.
 
-Link to website: https://coryjpiette.github.io/Work-Portfolio/
+You can directly access the portfolio [here] (https://coryjpiette.github.io/Work-Portfolio/)
 
 Website screenshot: 
 
