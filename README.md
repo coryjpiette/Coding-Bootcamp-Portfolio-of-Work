@@ -15,7 +15,7 @@ In Sample Work, I have included five distinct sections that cover different prog
 
 In contact Me, I have included a link to my email address and (for now) a fake phone number.
 
-You can directly access the portfolio [here] (https://coryjpiette.github.io/Work-Portfolio/)
+You can directly access the portfolio [here](https://coryjpiette.github.io/Work-Portfolio/).
 
 Website screenshot: 
 
