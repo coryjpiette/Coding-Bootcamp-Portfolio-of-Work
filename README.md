@@ -1,10 +1,17 @@
-Cory's Portfolio of Work
+## Cory's Portfolio of Work
 
-Description
+## Description
 
 This portfolio contains sveral applications that incorporate a wide array of coding languages, ranging from HTML to SQL.
 Each application is fully operational, and you are welcome to search through projects, explore their features, and test their functionality.
 
+#### Table of Contents
+1. [Feature List](#features)
+2. [Resources](#resources)
+3. [Image](#image)
+4. [Login](#login)
+5. [Usage](#usage)
+6. [Contributors](#contributors)
 
 
 The website navigates successfully to the "About Me," "Work," and "Contact Me" sections.
