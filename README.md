@@ -1,16 +1,44 @@
-Portfolio of Work
+## Cory's Portfolio of Work
 
-Please use the below-referenced link to view my portfolio of work.
+## Description
 
-The website navigates successfully to the "About Me," "Work," and "Contact Me" sections.
+This portfolio contains several applications that incorporate various coding languages, ranging from HTML to SQL.
+Each application is fully operational, and you are welcome to search through projects, explore their features, and test their functionality.
 
-In About Me, I have included a headshod, short biography, and links to my resume and LinkedIn profile.
+#### Table of Contents
+1. [Navigation](#navigation)
+2. [Information](#information)
+3. [Samples](#samples)
+4. [Contact](#contact)
+5. [Link](#link)
+6. [Screenshot](#screenshot)
 
-In Sample Work, I have included five distinct sections that cover different programming languages and areas of focus.
 
-In contact Me, I have included a link to my email address and (for now) a fake phone number.
+## Navigation
 
-Link to website: https://coryjpiette.github.io/Work-Portfolio/
+At the top of the webpage, you are provided with three navigation links: "About Me," " Sample Work," and "Contact Me."
+
+Clicking each link will direct you to a separate section as described below:
+
+## Information
+
+In About Me, I have included a headshot, short biography, and links to my resume and LinkedIn profile.
+
+## Samples
+
+In Sample Work, I have provided links to five separate projects, each utilizing varying programming languages and APIs. 
+
+The most recently completed project will always appear in the largest of the five windows.
+
+## Contact
+
+In contact Me, I have included a link to my email address, a fake phone number (for now), and, once again, my LinkedIn profile.
+
+## Link
+
+You can directly access the portfolio [here](https://coryjpiette.github.io/Work-Portfolio/).
+
+## Screenshot
 
 Website screenshot: 
 
