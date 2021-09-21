@@ -10,7 +10,7 @@ Each application is fully operational, and you are welcome to search through pro
 2. [Information](#information)
 3. [Samples](#samples)
 4. [Contact](#contact)
-5. [Screenshot](#usage)
+5. [Screenshot](#screenshot)
 
 
 ## Navigation
