@@ -6,21 +6,30 @@ This portfolio contains sveral applications that incorporate a wide array of cod
 Each application is fully operational, and you are welcome to search through projects, explore their features, and test their functionality.
 
 #### Table of Contents
-1. [Feature List](#features)
-2. [Resources](#resources)
-3. [Image](#image)
-4. [Login](#login)
-5. [Usage](#usage)
-6. [Contributors](#contributors)
+1. [Navigation](#navigation)
+2. [Information](#information)
+3. [Samples](#samples)
+4. [Contact](#contact)
+5. [Screenshot](#usage)
 
+
+## Navigation
 
 The website navigates successfully to the "About Me," "Work," and "Contact Me" sections.
 
+## Information
+
 In About Me, I have included a headshod, short biography, and links to my resume and LinkedIn profile.
+
+## Samples
 
 In Sample Work, I have included five distinct sections that cover different programming languages and areas of focus.
 
+## Contact
+
 In contact Me, I have included a link to my email address and (for now) a fake phone number.
+
+## Screenshot
 
 You can directly access the portfolio [here](https://coryjpiette.github.io/Work-Portfolio/).
 
