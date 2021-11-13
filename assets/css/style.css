@@ -60,7 +60,7 @@ color:gray;
    }
 
     #resume, #contact, #LinkedIn {
-    color: blue;
+    color: rgb(127, 167, 206);
 }
 #FlixFinder, #CodeQuiz, #Weather {
 color:white;
@@ -248,7 +248,7 @@ background-size: cover;
    }
    
    
-   
+  
    
 
    .footer {
