@@ -59,15 +59,16 @@
 color:gray;
    }
 
-    #resume, #contact, #LinkedIn {
-    color: rgb(127, 167, 206);
+    #resume, #contact, #LinkedIn, #link-text {
+    color: rgb(161, 185, 211);
 }
+
 #FlixFinder, #CodeQuiz, #Weather {
 color:white;
 }
 
-#resume:hover, #contact:hover, #LinkedIn:hover  {
-    color: rgba(245, 255, 255, 0.5);
+#resume:hover, #contact:hover, #LinkedIn:hover, #link-text:hover  {
+    color: white;
 }
 
 
@@ -172,12 +173,14 @@ color:white;
 }
    
    .Project-1 {
+    flex-basis: 50%;
        background-image: url("https://cdn.wallpapersafari.com/51/11/pAFte5.jpg");
        background-size: cover;
    }
    .Weather {
     flex-basis: 50%;
-       background-image: url("https://wallpaperaccess.com/full/1540001.jpg")
+       background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+       background-size: cover;;
    }
    .Quiz {
  flex-basis: 50%;
